@@ -1,0 +1,97 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+body{
+    display: flex;
+    background-image: url("/image6.jpg");
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin-top: 100px;
+    
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: aqua;
+}
+#calculater{
+    
+    font-family: Arial,sans-serif;
+    background-color:#081e3d;
+    height: 540px;
+    width: 430px;
+    border-radius: 26px;
+    overflow: hidden;
+    border-style: solid;
+    border-color: white;
+}
+#display{
+    width: 100%;
+    padding: 10px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color:#081e3d;
+    color: white;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 50px;
+    
+}
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(66, 64, 64);
+    color: white;
+    font-size: 3rem;
+    font-weight: solid;
+    cursor: pointer;
+    box-shadow: 7px 7px 2px rgb(84, 81, 81);
+    
+}
+button:hover{
+    background-color: rgb(150, 154, 174);
+}
+button:active{
+    background-color: rgb(38, 36, 168);
+}
+.operater-btn{
+    background-color:orange;
+}
+.operater-btn:hover{
+    background-color: rgb(217, 171, 87)
+}
+.operater-btn:active{
+    background-color: rgb(229, 212, 181);
+}
+.name{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: aliceblue;
+    font-size:x-small;
+    padding-right: 20px;
+    
+}
+@media only screen and (max-width:700px){
+    body{
+        height: 90%;
+        width: 90%;
+        margin-left: 200px;
+        padding-right: 200px;
+        margin-bottom: 700px;
+        padding-top: 100px;
+    }
+}
+    
